@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoiefy - Links Oficiais</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            background-image: radial-gradient(circle at top, #1a1a1a 0%, #000000 100%);
+        }
+        .yellow-accent {
+            color: #FACC15;
+        }
+        .btn-link {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 2px solid #FACC15;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(4px);
+        }
+        .btn-link:hover {
+            background-color: #FACC15;
+            color: #000000;
+            transform: scale(1.03);
+            box-shadow: 0 0 25px rgba(250, 204, 21, 0.5);
+        }
+        .profile-img-container {
+            border: 3px solid #FACC15;
+            box-shadow: 0 0 30px rgba(250, 204, 21, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .logo-glow {
+            filter: drop-shadow(0 0 12px rgba(250, 204, 21, 0.6));
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center py-12 px-6">
+
+    <!-- Container Principal -->
+    <div class="w-full max-w-md flex flex-col items-center">
+        
+        <!-- Foto de Perfil / Logo -->
+        <div class="profile-img-container w-32 h-32 rounded-full overflow-hidden mb-6 flex items-center justify-center backdrop-blur-sm">
+            <!-- Logo Apoiefy via Link Direto -->
+            <img src="https://i.postimg.cc/1f1pYWQw/Chat-GPT-Image-13-de-fev-de-2026-14-09-24-removebg-preview.png" alt="Logo Apoiefy" class="w-24 h-24 object-contain logo-glow">
+        </div>
+
+        <!-- Nome e Descrição -->
+        <h1 class="text-3xl font-extrabold mb-3 tracking-tighter uppercase">Apoiefy</h1>
+        <div class="w-12 h-1 bg-yellow-400 mb-4 rounded-full shadow-[0_0_10px_#FACC15]"></div>
+        <p class="text-sm text-gray-300 mb-10 text-center leading-relaxed font-medium px-4">
+            Impulsionando o seu negócio com a <span class="yellow-accent">velocidade</span> e a <span class="yellow-accent">energia</span> que ele merece. Conecte-se conosco e transforme seus resultados.
+        </p>
+
+        <!-- Links -->
+        <div class="w-full space-y-4">
+            
+            <!-- Site Oficial -->
+            <a href="https://www.xn--apoify-lva.com.br/" target="_blank" class="btn-link flex items-center justify-center w-full py-4 px-6 rounded-xl font-extrabold bg-transparent text-white text-lg uppercase tracking-wider">
+                Nosso Site
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/apoiefy" target="_blank" class="btn-link flex items-center justify-center w-full py-4 px-6 rounded-xl font-extrabold bg-transparent text-white text-lg uppercase tracking-wider">
+                Instagram
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/@apoiefy" target="_blank" class="btn-link flex items-center justify-center w-full py-4 px-6 rounded-xl font-extrabold bg-transparent text-white text-lg uppercase tracking-wider">
+                TikTok
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/5521996567301" target="_blank" class="btn-link flex items-center justify-center w-full py-4 px-6 rounded-xl font-extrabold bg-transparent text-white text-lg uppercase tracking-wider">
+                WhatsApp
+            </a>
+
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="mt-20 text-gray-500 text-[10px] tracking-[0.3em] uppercase font-bold text-center">
+            © 2024 APOIEFY • POWERED BY ENERGY
+        </footer>
+    </div>
+
+</body>
+</html>
